@@ -1,0 +1,62 @@
+/* reset */
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* end reset */
+
+/* wrapper */
+.wrapper {
+  text-align: center;
+}
+/* end wrapper */
+
+/* line*/
+.line {
+  margin: 20px;
+}
+/* end line */
+
+
+/* product */
+.product {
+  display: inline-block;
+  position: relative;
+}
+
+.product .discount-30 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: green;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 3px;
+}
+
+.product .discount-5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 3px;
+}
+
+  /* heart */
+  .product .heart {
+    display: none;
+    position: absolute;
+    color: red;
+    bottom: 20px;
+    right: 150px;
+  }
+
+  .product:hover  .heart {
+    display: inline-block;
+  }
+  /* end heart */
+
+/* end product */
